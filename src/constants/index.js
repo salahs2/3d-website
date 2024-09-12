@@ -16,13 +16,13 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
+    mcmaster,
+    HOOPP,
     carrent,
     jobit,
     tripguide,
     threejs,
+    fidelity,
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +116,44 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Research Assistant",
+      company_name: "McMaster University",
+      icon: mcmaster,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted statistical analysis using R on student evaluation of physics courses analyzing grades, pass rates, establishing difficulty classification, and creating scenario analysis on new grading/marking schemes and expected results",
+        "lorem",
+        "lorem",
+        "Lorem",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Private Equity Intern",
+      company_name: "Healthcare of Ontario Pension Plan",
+      icon: HOOPP,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Evaluating minority investment in financial services company seeking to raise $100mm in preferred equity by assessing Y3 MOIC and IRR (withdrawn due to ESG Concerns) ",
+        "Conducting diligence on sale of controlled portfolio company valued at ~$4B by evaluating strategic buyers and calculating potential sale multiple using comparable analysis & analyzing potential synergies with strategic buyers resulting in initiation of sale proces",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      title: "Risk Management Intern",
+      company_name: "Fidelity",
+      icon: fidelity,
+      iconBg: "#E6DEDD",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created a database for enterprise risk assessments monitoring risk classifications, and updating re-assessments resulting in efficient risk assessment and increased accuracy in enterprise risk monitoring",
+        "Created Microsoft Power Automate system that screens relevant news articles that pose measured risk levels based on keywords generating a confidence interval of negative articles to screen for unpredicted developments relevant to vendor risk, reducing news monitoring time by >90%",
+        "Assisted with Thesis publication on sector-specific technical indicators to assist Portfolio Managers decision-making process",
+        "Developed dashboard for Portfolio Managers to identify quantitative indicators using Python Dash, Plotly and Pandas frameworks allowing Portfolio Managers to back test specific parameters without needing programming expertise",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
