@@ -30,12 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import linkedin from "./linkedin.png";
+import resumelogo from "./resume_logo.png"
 export {
   logo,
   backend,
   creator,
   mobile,
   web,
+  resumelogo,
+  linkedin,
   github,
   menu,
   close,

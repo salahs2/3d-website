@@ -23,6 +23,9 @@ import {
     tripguide,
     threejs,
     fidelity,
+    linkedin,
+    github,
+    resumelogo,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Linkedin",
+      icon: linkedin,
+      source_code_link: "https://github.com/"
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Github",
+      icon: github,
+      source_code_link: "https://github.com/"
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
+      title: "Resume",
+      icon: resumelogo,
+      source_code_link: "https://github.com/"
     },
   ];
   
