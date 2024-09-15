@@ -29,30 +29,34 @@ import {
   } from "../assets";
   
   export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    // {
+    //   id: "about",
+    //   title: "About",
+    // },
+    // {
+    //   id: "work",
+    //   title: "Experience",
+    // },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
+    // {
+    //   id: "projects",
+    //   title: "My Projects",
+    // },
   ];
   
   const services = [
     {
       title: "Linkedin",
       icon: linkedin,
-      source_code_link: "https://github.com/"
+      source_code_link: "https://www.linkedin.com/in/salahsalah/"
     },
     {
       title: "Github",
       icon: github,
-      source_code_link: "https://github.com/"
+      source_code_link: "https://github.com/salahs2"
     },
     {
       title: "Resume",
@@ -125,9 +129,8 @@ import {
       date: "May 2023 - Aug 2023",
       points: [
         "Conducted statistical analysis using R on student evaluation of physics courses analyzing grades, pass rates, establishing difficulty classification, and creating scenario analysis on new grading/marking schemes and expected results",
-        "lorem",
-        "lorem",
-        "Lorem",
+        "Created Levenshtein distance algorithm using python to reduce unique values of a dataset by ~50% from >16,000 unique values to ~8,000",
+        "Developed Test Bank Database for Physics courses to organize previous tests and questions used in examination for data collection",
       ],
     },
     {

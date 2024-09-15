@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin, github} from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -30,23 +30,30 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-4 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-primary" : "bg-transparent" 
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-8x1 mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
+        <div
+          className='flex items-center gap-3'
+        >
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain cursor-pointer flex' 
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Salah
+          />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex '
+             onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            Salah Salah
           </p>
-        </Link>
+          <img src={linkedin} onClick={() => window.open('https://www.linkedin.com/in/salahsalah/', '_blank')} alt='linkedin' className='w-6 h-6 object-contain cursor-pointer flex ' />
+          <img src={github} onClick={() => window.open('https://github.com/salahs2', '_blank')} alt='linkedin' className='w-6 h-6 object-contain cursor-pointer flex ' />
+        </div>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
