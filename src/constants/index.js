@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -26,6 +27,8 @@ import {
     linkedin,
     github,
     resumelogo,
+    testbank,
+    website,
   } from "../assets";
   
   export const navLinks = [
@@ -190,68 +193,72 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Testbank Database",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed Test Bank Database for Universities Physics Department that allows users to authenticate users and store test & quiz banks for courses & track relevant data.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Electron.JS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
+        {
+          name: "Firebase",
+          color: "red-text-gradient"
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: testbank,
+      source_code_link: "https://github.com/salahs2",
     },
     {
-      name: "Job IT",
+      name: "Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a dynamic 3D portfolio website using React and Three.js, incorporating interactive 3D models and animations for an engaging user experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "tailwind css",
+          color: "pink-text-gradient",
         },
         {
           name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: website,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

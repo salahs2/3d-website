@@ -32,8 +32,11 @@ import tripguide from "./tripguide.png";
 
 import linkedin from "./linkedin.png";
 import resumelogo from "./resume_logo.png"
+import testbank from "./testbank.png"
+import website from "./website.png"
 export {
   logo,
+  website,
   backend,
   creator,
   mobile,
@@ -43,6 +46,7 @@ export {
   github,
   menu,
   close,
+  testbank,
   css,
   docker,
   figma,

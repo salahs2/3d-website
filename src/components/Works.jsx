@@ -17,13 +17,13 @@ const ProjectCard = ( {index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-3 rounded-2xl sm:w-[360px] w-full'
         >
-          <div className='relative w-full h-[230px]'>
+          <div className='relative w-full h-[260px]'>
             <img 
               src={image}
               alt={name}
-              className='w-full h-full object-cover rounded-2xl'
+              className='w-full h-full object-fit rounded-2xl'
             />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -34,7 +34,7 @@ const ProjectCard = ( {index, name, description, tags, image, source_code_link }
                <img
                  src={github}
                  alt='source code'
-                 className='w-1/2 h-1/2 object-contain'
+                 className='w-3/4 h-3/4 object-contain'
                />
               </div>
             </div>
