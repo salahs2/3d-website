@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://salahs2.github.io/3d-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d vite build",
+    "deploy" : "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
