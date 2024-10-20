@@ -1,8 +1,5 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -21,26 +18,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
 import fidelity from "./company/fidelity.png";
 import mcmaster from "./company/mcmaster.png";
 import HOOPP from "./company/HOOPP.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import linkedin from "./linkedin.png";
 import resumelogo from "./resume_logo.png"
 import testbank from "./testbank.png"
 import website from "./website.png"
+import nba from "./NBA.png"
 export {
   logo,
   website,
-  backend,
-  creator,
   mobile,
-  web,
   resumelogo,
   linkedin,
   github,
@@ -60,11 +51,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   fidelity,
   mcmaster,
   HOOPP,
-  carrent,
-  jobit,
-  tripguide,
+  nba,
 };

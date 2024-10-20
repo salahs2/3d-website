@@ -1,9 +1,5 @@
 import { color } from "framer-motion";
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -16,12 +12,8 @@ import {
     git,
     figma,
     docker,
-    meta,
     mcmaster,
     HOOPP,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     fidelity,
     linkedin,
@@ -29,6 +21,7 @@ import {
     resumelogo,
     testbank,
     website,
+    nba
   } from "../assets";
   
   export const navLinks = [
@@ -238,6 +231,31 @@ import {
       image: website,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "NBA ROTY Dashboard",
+      description:
+        "Developed an interactive data visualization dashboard using Streamlit to visualize NBA rookie statistics for every season to predict the future rookie of the year.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Beautiful Soup",
+          color: "red-text-gradient"
+        }
+      ],
+      image: nba,
+      source_code_link: "https://github.com/salahs2/NBA-RoTY-Dashboard",
+    }
     // {
     //   name: "Trip Guide",
     //   description:
